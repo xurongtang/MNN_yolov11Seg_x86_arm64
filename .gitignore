@@ -1,0 +1,10 @@
+build_arm64/
+build_x86/
+3rdparty/eigen/
+3rdparty/MNN/
+3rdparty/mnn-install-arm64/
+3rdparty/mnn-install-x86/
+3rdparty/opencv/
+3rdparty/opencv-install-arm64/
+3rdparty/opencv-install-x86/
+.vscode/
