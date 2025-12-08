@@ -9,7 +9,7 @@
 ## English Version
 
 ### 📌 Overview  
-This project demonstrates how to deploy the **YOLOv11 instance segmentation model** using the **MNN inference engine**, supporting both **x86** and **ARM64 (such as RDX x5)** hardware platforms. Through pre-compiled dependency libraries (Eigen, OpenCV, MNN) and utilizing YOLO's official export function to generate `.mnn` models, end-to-end inference and visualization are completed.
+This project demonstrates how to deploy the **YOLOv11 instance segmentation model** using the **MNN inference engine**, supporting both **x86** and **ARM64 (such as RDK x5)** hardware platforms. Through pre-compiled dependency libraries (Eigen, OpenCV, MNN) and utilizing YOLO's official export function to generate `.mnn` models, end-to-end inference and visualization are completed.
 
 ---
 
@@ -18,7 +18,7 @@ This project demonstrates how to deploy the **YOLOv11 instance segmentation mode
 In the `3rdparty/` directory, use automated scripts to compile dependency libraries for target platforms respectively:
 
 - **x86_64 (Linux)**
-- **ARM64 (such as RDX x5 development board)**
+- **ARM64 (such as RDK x5 development board)**
 
 ### 2️⃣ Model Preparation
 
@@ -54,7 +54,7 @@ Run the compilation script in the project root directory:
 Select the target platform according to the prompts:
 
 - Enter 1: Compile x86_64 version, generating build_x86 folder
-- Enter 2: Compile ARM64 (such as RDX x5) version, generating build_arm64 folder
+- Enter 2: Compile ARM64 (such as RDK x5) version, generating build_arm64 folder
 
 
 After compilation is complete, the executable file test_YOLOv11Seg is generated
